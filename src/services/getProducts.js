@@ -3,12 +3,9 @@ const getProducts = async () => {
   // Use the following URL for your fetch request
   const url = `${process.env.REACT_APP_API_URL}/products`;
   const response = await fetch(url);
-  const products = [];
-  const product = await response.json();
-  console.log(product);
+  //const products = [];
+  const products = await response.json();
   return products;
 };
 
 export { getProducts };
-
-//
