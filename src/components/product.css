@@ -4,10 +4,12 @@
   padding: 0;
 }
 .grid {
+  display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto;
 }
 .prodContaioner {
+  display: grid;
+  grid-template-columns: 1fr;
   border: 1.5px solid black;
   margin: 2rem 1rem;
   padding: 1rem;
@@ -36,4 +38,14 @@
   border: 1px solid black;
   border-radius: 1rem;
   font-size: 1.05rem;
+}
+@media (min-width: 31rem) {
+  .prodContaioner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .mq {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
 }
