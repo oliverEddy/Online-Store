@@ -3,8 +3,9 @@ import "./App.css";
 
 // The function that makes the fetch request to the Products API
 import { getProducts } from "./services/getProducts";
+import Product from "./services/components/product";
 
-function App() {
+const App = () => {
   // use the products variable to read all of your products
   // and display them on your page
   const [products, setProducts] = useState([]);
@@ -20,9 +21,20 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Sunglass Shop</h1>
+      {products.map((products) => {
+        return (
+          <Product
+            id={products.id}
+            image={products.images}
+            description={products.description}
+            name={products.name}
+            prices={products.prices[0].unit_amount}
+            genre={products.metadata["Genre "]}
+          />
+        );
+      })}
     </div>
   );
-}
+};
 
 export default App;
