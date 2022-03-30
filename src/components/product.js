@@ -1,11 +1,14 @@
+import "./product.css";
 const Product = ({ image, name, description, price }) => {
   return (
-    <div className="">
-      <img src={image} alt={name} />
-      <h3>{name}</h3>
-      <p>{description}</p>
-      <p>{price}</p>
-      <button>{price}</button>
+    <div className="gird">
+      <div className="prodContaioner">
+        <img className="albumCover" src={image} alt={name} />
+        <h1 className="artistName">{name}</h1>
+        <p className="albumName">{description}</p>
+        <p className="price">{price}</p>
+        <button className="paymentButton">{"Buy Now"}</button>
+      </div>
     </div>
   );
 };

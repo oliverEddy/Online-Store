@@ -5,6 +5,7 @@ import "./App.css";
 import { getProducts } from "./services/getProducts";
 import Product from "./components/product";
 import formatAmount from "./components/formatAmount";
+
 const App = () => {
   // use the products variable to read all of your products
   // and display them on your page
