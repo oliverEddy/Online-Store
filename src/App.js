@@ -3,8 +3,8 @@ import "./App.css";
 
 // The function that makes the fetch request to the Products API
 import { getProducts } from "./services/getProducts";
-import Product from "./services/components/product";
-
+import Product from "./components/product";
+import formatAmount from "./components/formatAmount";
 const App = () => {
   // use the products variable to read all of your products
   // and display them on your page
@@ -24,11 +24,11 @@ const App = () => {
       {products.map((products) => {
         return (
           <Product
-            id={products.id}
+            key={products.id}
             image={products.images}
             description={products.description}
             name={products.name}
-            prices={products.prices[0].unit_amount}
+            price={formatAmount(products.prices[0].unit_amount)}
             genre={products.metadata["Genre "]}
           />
         );
