@@ -47,5 +47,13 @@
   .mq {
     grid-column: 2/3;
     grid-row: 1/2;
+    padding: 1rem;
+  }
+  .paymentButton {
+    grid-column: 1/3;
+  }
+}
+@media (min-width: 52.5rem) {
+  .grid {
   }
 }
