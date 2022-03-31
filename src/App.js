@@ -24,14 +24,16 @@ const App = () => {
     <div className="container">
       {products.map((products) => {
         return (
-          <Product
-            key={products.id}
-            image={products.images}
-            description={products.description}
-            name={products.name}
-            price={formatAmount(products.prices[0].unit_amount)}
-            genre={products.metadata["Genre "]}
-          />
+          <>
+            <Product
+              key={products.id}
+              image={products.images}
+              description={products.description}
+              name={products.name}
+              price={formatAmount(products.prices[0].unit_amount)}
+              genre={products.metadata["Genre "]}
+            />
+          </>
         );
       })}
     </div>
