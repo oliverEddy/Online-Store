@@ -1,5 +1,9 @@
 .nav-Header {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 .div-Logo {
-  max-width: 10%;
+}
+.logo {
+  min-height: auto;
 }

@@ -6,8 +6,9 @@ const Header = () => {
   return (
     <nav className="nav-Header">
       <div className="div-Logo">
-        <ReactLogo />
-        Im Head
+        <div className="logo">
+          <ReactLogo />
+        </div>
       </div>
     </nav>
   );
