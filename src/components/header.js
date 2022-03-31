@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import Logo from "../assets/logo.svg";
+import { ReactComponent as svg } from "../assets/Logo";
 const Header = () => {
   return (
     <nav className="nav-Header">
