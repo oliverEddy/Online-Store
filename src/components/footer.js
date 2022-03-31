@@ -4,7 +4,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <nav className="nav-Header">
-      <div className="div-Logo">Im Head</div>
+      <div className="div-Logo">Im Toe</div>
     </nav>
   );
 };
