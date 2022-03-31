@@ -7,21 +7,19 @@
   display: grid;
   grid-template-columns: 1fr;
 }
-.nav-Header {
-}
 .div-Logo {
+  background-color: #4960a6;
 }
 .Logo {
-  width: 80%;
+  width: 100%;
   height: auto;
-  border: 1px solid black;
 }
 @media (min-width: 43rem) {
   .Logo {
-    width: 60%;
+    width: 55%;
   }
 }
-@media (min-width: 80rem) {
+@media (min-width: 64rem) {
   .Logo {
     width: 44%;
   }

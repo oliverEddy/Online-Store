@@ -1,6 +1,6 @@
 import "./product.css";
 import { checkout } from "../services/checkout";
-const Product = ({ image, name, description, price }) => {
+const Product = ({ image, name, description, price, priceId }) => {
   return (
     <div className="grid">
       <div className="prodContaioner">
@@ -10,11 +10,11 @@ const Product = ({ image, name, description, price }) => {
           <p className="albumName">{description}</p>
           <p className="price">{price}</p>
         </div>
-        <button className="paymentButton">{"Buy Now"}</button>
+        <button onClick={checkout(priceId)} className="paymentButton">
+          {"Buy Now"}
+        </button>
       </div>
     </div>
   );
 };
 export default Product;
-
-//onClick={checkout(product.pirceId)}
