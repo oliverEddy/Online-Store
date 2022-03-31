@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -16,6 +17,7 @@
   width: 90%;
 }
 .artistName {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   margin-top: 1rem;
   font-size: 1.8rem;
 }
@@ -25,7 +27,7 @@
   border: 2.5px solid black;
 }
 .albumName {
-  font-family: IBM Plex Sans Arabic, sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   margin-top: 1rem;
   font-size: 1.25rem;
   color: #686868;
