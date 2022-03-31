@@ -26,11 +26,11 @@
 }
 .albumName {
   margin-top: 1rem;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
 }
 .price {
   margin-top: 1rem;
-  font-size: 1.35rem;
+  font-size: 1.4rem;
 }
 .paymentButton {
   margin-top: 1rem;
@@ -65,8 +65,14 @@
   .artistName {
     margin-top: 0;
   }
+  .albumName {
+    font-size: 1.15rem;
+  }
+  .price {
+    font-size: 1.35rem;
+  }
 }
-@media (min-width: 49rem) {
+@media (min-width: 46rem) {
   .albumName {
     font-size: 1.35rem;
   }
@@ -77,7 +83,29 @@
     font-size: 1.55rem;
   }
 }
-@media (min-width: 62.5rem) {
+@media (min-width: 53rem) {
+  .albumName {
+    font-size: 1.55rem;
+  }
+  .artistName {
+    font-size: 2.2rem;
+  }
+  .price {
+    font-size: 1.75rem;
+  }
+}
+@media (min-width: 60rem) {
+  .albumName {
+    font-size: 1.75rem;
+  }
+  .artistName {
+    font-size: 2.4rem;
+  }
+  .price {
+    font-size: 1.95rem;
+  }
+}
+@media (min-width: 80rem) {
   .albumName {
     font-size: 0.95rem;
   }
@@ -103,3 +131,14 @@
     grid-column: 2/3;
   }
 }*/
+@media (min-width: 88rem) {
+  .albumName {
+    font-size: 1.15rem;
+  }
+  .artistName {
+    font-size: 1.8rem;
+  }
+  .price {
+    font-size: 1.35rem;
+  }
+}

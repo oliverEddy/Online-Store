@@ -3,14 +3,26 @@
   margin: 0;
   padding: 0;
 }
-.nav-Header {
+.header-cont {
   display: grid;
   grid-template-columns: 1fr;
+}
+.nav-Header {
 }
 .div-Logo {
 }
 .Logo {
-  width: 100%;
+  width: 80%;
   height: auto;
   border: 1px solid black;
+}
+@media (min-width: 43rem) {
+  .Logo {
+    width: 60%;
+  }
+}
+@media (min-width: 80rem) {
+  .Logo {
+    width: 44%;
+  }
 }

@@ -1,4 +1,5 @@
 import "./product.css";
+import { checkout } from "../services/checkout";
 const Product = ({ image, name, description, price }) => {
   return (
     <div className="grid">
@@ -15,3 +16,5 @@ const Product = ({ image, name, description, price }) => {
   );
 };
 export default Product;
+
+//onClick={checkout(product.pirceId)}
