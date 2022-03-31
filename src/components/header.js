@@ -1,10 +1,13 @@
 import React from "react";
-import { reactComponent as Logo } from "src/assets/logo.svg";
+import "./header.css";
+import { reactComponent as Logo } from "../assets/logo.svg";
 const Header = () => {
   return (
-    <div>
-      <logo />
-    </div>
+    <nav>
+      <div>
+        <Logo />
+      </div>
+    </nav>
   );
 };
 export default Header;
