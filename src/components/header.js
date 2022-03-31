@@ -1,8 +1,6 @@
+import react from "react";
+import logo from "";
 const Header = () => {
-  return (
-    <div>
-      <img src="public/Zetro-logo-final.jpeg" alt="Zetro Logo" />
-    </div>
-  );
+  return <div></div>;
 };
 export default Header;
