@@ -30,6 +30,7 @@
 }
 .price {
   margin-top: 1rem;
+  font-size: 1.35rem;
 }
 .paymentButton {
   margin-top: 1rem;
@@ -41,7 +42,7 @@
   border-radius: 1rem;
   font-size: 1.05rem;
 }
-@media (min-width: 31rem) {
+@media (min-width: 43rem) {
   .prodContaioner {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -65,7 +66,7 @@
     margin-top: 0;
   }
 }
-@media (min-width: 52.5rem) {
-  .grid {
+@media (min-width: 86rem) {
+  .albumCover {
   }
 }
