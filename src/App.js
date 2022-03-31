@@ -26,6 +26,7 @@ const App = () => {
         return (
           <>
             <Product
+              id={products.id}
               key={products.id}
               image={products.images}
               description={products.description}
