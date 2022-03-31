@@ -25,6 +25,7 @@
   border: 2.5px solid black;
 }
 .albumName {
+  font-family: IBM Plex Sans Arabic, sans-serif;
   margin-top: 1rem;
   font-size: 1.25rem;
   color: #686868;
