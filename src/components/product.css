@@ -45,6 +45,11 @@
   border: 1px solid #f6ae84;
   border-radius: 1rem;
   font-size: 1.05rem;
+  transition-duration: 0.4s;
+}
+.paymentButton:hover {
+  background-color: #f6ae84;
+  color: black;
 }
 @media (min-width: 43rem) {
   .prodContaioner {
