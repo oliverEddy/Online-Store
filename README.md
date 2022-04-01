@@ -23,7 +23,9 @@ This project relies on the following systems to work properly
 1. Run `npm install` in terminal 
 2. Run `npm start` to start local development server
 3. Open src/App.js to get started 
-4. Components are loclaed in `components` folder
+4. Components are loclaed in /component folder
+5. Proudct map function is in /App.js 
 
 ## Deployed application 
 [begin](https://lion-ffd-staging.begin.app/)
+[netlify](https://tourmaline-zuccutto-5d4389.netlify.app/)
