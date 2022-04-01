@@ -130,15 +130,17 @@ it looks ugly*/
     margin-top: 1rem;
   }
 }
+@media (min-width: 82.25rem) {
+  .price {
+    font-size: 1.25rem;
+  }
+}
 @media (min-width: 89rem) {
   .albumName {
     font-size: 0.95rem;
   }
   .artistName {
     font-size: 1.4rem;
-  }
-  .price {
-    font-size: 1.15rem;
   }
 }
 @media (min-width: 94rem) {
@@ -147,9 +149,6 @@ it looks ugly*/
   }
   .artistName {
     font-size: 1.5rem;
-  }
-  .price {
-    font-size: 1.25rem;
   }
 }
 @media (min-width: 100rem) {
@@ -161,5 +160,21 @@ it looks ugly*/
   }
   .price {
     font-size: 1.35rem;
+  }
+}
+@media (min-width: 107rem) {
+  .albumName {
+    font-size: 1.35rem;
+  }
+  .artistName {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 121rem) {
+  .albumName {
+    margin-top: 2rem;
+  }
+  .price {
+    margin-top: 2rem;
   }
 }
